@@ -5,4 +5,5 @@ export class Producto{
     descripcion?: string;
     precio?: string;
     imagen?: string;
+  bestSeller: any;
 }
