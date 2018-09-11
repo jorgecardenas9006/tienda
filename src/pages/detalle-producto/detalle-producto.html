@@ -12,6 +12,26 @@
 
 </ion-header>
 
+<ion-content padding>
+    <ion-card>
+      <img src={{producto.imagen}}>
+    </ion-card>
+<ion-card>
+    <ion-card-header>Descripcion</ion-card-header>
+    <ion-card-content>
+      <ion-card-title>{{producto.nombre}}</ion-card-title>
+      {{producto.descripcion}}
+    </ion-card-content>
+    <ion-card-header>Detalle</ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        precio <ion-badge item-end>{{producto.precio}}</ion-badge>
+      </ion-item>
+      <ion-item>
+        Genero <ion-badge item-end>{{producto.genero}}</ion-badge>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
 
 <ion-content padding>
 
